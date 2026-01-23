@@ -5,5 +5,8 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
+    baseUrl: "https://petstore.swagger.io/v2",
+    numTestsKeptInMemory: 0,
+    watchForFileChanges: true,
   },
 });

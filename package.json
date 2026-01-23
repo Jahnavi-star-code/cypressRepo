@@ -9,6 +9,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "cypress": "^15.9.0"
+    "cypress": "^15.9.0",
+    "cypress-plugin-api": "^2.11.2"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
   }
 }

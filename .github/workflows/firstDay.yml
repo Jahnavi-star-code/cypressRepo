@@ -1,0 +1,8 @@
+name: firstDayYAML
+
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Manually Triggered"

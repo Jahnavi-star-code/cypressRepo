@@ -1,6 +1,18 @@
 name: firstDayYAML
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      test_env:
+        description: "Choose the config"
+        required: true
+        default: feature
+        type: choice
+        options:
+          - dev
+          - stage
+          - feature
+
 jobs:
   hello:
     runs-on: ubuntu-latest
